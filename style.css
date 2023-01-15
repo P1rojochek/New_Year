@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.header {
+    background-color: rgb(250, 215, 217);
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Pinyon Script', cursive;
+    color: rgb(255, 0, 128);
+}
+
+ul>li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amita', cursive;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    padding: 30px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.nav__list {
+    display: flex;
+    column-gap: 80px;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/97/f6/3c/97f63c0a23680610250187785f28f794.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-size: 50px;
+    background-image: url(https://img.freepik.com/premium-photo/studio-background-red-gradient_1258-49126.jpg);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.title__bottom {
+    text-transform: uppercase;
+}
+
+.main__desk {
+    width: 500px;
+}
+
+.main__link {
+    background-color: coral;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    width: 165px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main__link:hover {
+    background-color: chocolate;
+}
+
+.nav__link:hover {
+    color: cornflowerblue;
+}
+
+.section {
+    height: 100vh;
+}
+
+.section__col {
+    width: 50%;
+}
+
+.desc {
+    display: flex;
+}
+
+.desc__img-wrap {
+    background-color: lightblue;
+
+
+}
+
+.subtitle {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.desc__info {
+    padding: 50px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(img/pngegg\ \(1\).png) no-repeat top right, lightblue;
+}
+
+.desc__img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.poem {
+    background-image: url(https://vgif.ru/gifs/otkr/vgif-ru-17805.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.poem__text {
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.651);
+    padding: 0px 50px 50px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 25px;
+}
